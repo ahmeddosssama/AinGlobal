@@ -10,16 +10,19 @@ const Hero = () => {
       >
         <div className="text-center mt-40">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Connect your Business to a World Of Possibilities 
+            Connect your Business to a World Of Possibilities
           </h1>
-          <p className={`${styles.heroSubText} mt-2`} style={{ color: '#B6B2B2' }}>
-            Our extensive network ensures seamless transactions, competitive pricing, and reliable delivery.
+          <p
+            className={`${styles.heroSubText} mt-2`}
+            style={{ color: "#B6B2B2" }}
+          >
+            Our extensive network ensures seamless transactions, competitive
+            pricing, and reliable delivery.
           </p>
         </div>
       </div>
 
       <EarthMain />
-
     </section>
   );
 };
